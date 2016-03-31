@@ -44,7 +44,7 @@ public class Troll implements Race {
     @Override
     public int baseIntelligence() {
         Random rand = new Random();
-        return rand.nextInt(9 - 1 + 1) + 1;
+        return rand.nextInt(9 - 5 + 1) + 5;
     }
 
     @Override
